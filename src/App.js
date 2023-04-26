@@ -1,14 +1,14 @@
 import "./styles.css";
-// import { ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 import UploadSingleDelivery from "./UI/upload-single-delivery";
-// import theme from "./assets/theme";
+import theme from "./assets/theme";
 
 export default function App() {
   return (
     <div className="App">
-      {/* <ThemeProvider theme={theme}> */}
+      <ThemeProvider theme={theme}>
       <UploadSingleDelivery />
-      {/* </ThemeProvider> */}
+      </ThemeProvider>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import FormFieldTitle from "./field-title";
-import SingleSelect from "./form-select";
+import SingleSelect from "./form-single-select";
 
 const FormField = (props) => {
   const { options, fieldDisplayName, isRequired } = props;

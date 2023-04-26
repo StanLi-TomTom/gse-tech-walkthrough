@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Stack, styled } from "@mui/material";
-import SingleSelect from "./form-select";
+import SingleSelect from "../components/form-single-select";
 import PropTypes from "prop-types";
 
 const FormField = styled("div")(() => ({

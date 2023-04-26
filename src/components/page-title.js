@@ -7,8 +7,7 @@ const FormTitle = (props) => {
   return (
     <>
       <Typography
-        key="title"
-        // variant="h3"
+        key="title"        
         sx={{
           marginTop: `${marginBottomVal}px`,
           marginBottom: `${marginBottomVal}px`

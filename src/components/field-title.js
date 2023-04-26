@@ -9,14 +9,12 @@ const FormFieldTitle = (props) => {
     <>
       <Stack direction="row" spacing={0} alignItems="center">
         <Typography
-          key={fieldDisplayName + "-Typography"}
-          // variant="caption"
+          key={fieldDisplayName + "-Typography"}          
         >
           {fieldDisplayName}
         </Typography>
         {isRequired && (
-          <Typography
-          // variant="required"
+          <Typography          
           >
             {"*"}
           </Typography>

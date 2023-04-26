@@ -9,15 +9,11 @@ const FormField = styled("div")(() => ({
 }));
 
 const SingleSelectDropDown = (props) => {
-  const {
-    // disabled,
-    // dispatch,
+  const {    
     fieldDisplayName,
-    // fieldAPIName,
     selectOptions,
     optionKey,
     componentKey,
-    // valueSet,
     isRequired
   } = props;
 
